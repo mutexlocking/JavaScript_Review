@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Apple Silicon-M1</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src = "color.js"></script>     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <h1><a href="index.html" title="introduction of the Apple Silicon">Apple Silicon</a></h1>
+
+
+        <div id="grid">
+            <div id="navigation">
+                <ol>
+                    <li><a href="1.html" title="introduction of the M1 Chip" id="this"> M1</a></li>
+                    <li><a href="2.html" title="introduction of the M1 Pro and M1 Max Chip"> M1 Pro M1 Max</a></li>
+                </ol>
+
+                <input id="toggleButton" type="button" value="Night Mode" style="margin-left:65px" onclick="
+                    changeMode(this);   
+                ">
+            </div>
+    
+            <div id="article">
+                <h2>About the M1 chip</h2>
+    
+                <p>
+                <a href="https://en.wikipedia.org/wiki/Apple_M1" target="_blank"title="go to the wikipedia">The Apple M1</a> is an ARM-based system on a chip (SoC) designed by Apple Inc. as a central processing unit (CPU) and graphics processing unit (GPU) for its Macintosh computers and iPad Pro tablets.
+                <br/>It also marks the third change to the instruction set used by Macintosh computers, 14 years after Apple switched Macs from PowerPC to Intel in 2006.
+                <br/>Apple claims the chip has the world's fastest CPU core "in low power silicon" and the world's best CPU performance per watt.
+                <br/>
+                <br/>The M1 was released in November 2020, followed the next year by the Apple M1 Pro and M1 Max versions. These differ largely in size and the number of functional units: 
+                <br/>for example, the original M1 has about 16 billion transistors; the largest M1 Max, 57 billion.
+                <br/>The M1 runs Apple's own macOS and iPadOS operating systems. Initial support for the M1 SoC in the Linux kernel was released on June 27, 2021, with version 5.13.
+                <br/>The memory architecture makes the RAM not user-upgradeable; it is sold with 8 GB or 16 GB, which is shared among all compute units.
+                <br/>The initial versions contain an architectural defect permitting sandboxed applications to exchange data, violating the security model.
+                </p>
+    
+                <img src= "m1.jpg" alt="Image Load Error">
+            </div>
+        </div>
+    </body>
+</html>
